@@ -2,17 +2,17 @@
 #include<math.h>
 main()
 {
- int i,greatest,a[10];
+ int n,greatest,a[10];
  printf("ENTER 10 NUMBERS");
- for(i=0;i<10;i++)
+ for(n=0;n<10;n++)
  {
-  scanf("%d",a[i]);
+  scanf("%d",a[n]);
   }
-  a[0=greatest;
-  for(i=0;i<10;i++)
+  a[0]=greatest;
+  for(n=0;n<10;n++)
   {
   if(a[i]>greatest)
-   greatest=a[i];
+   greatest=a[n];
    }
    printf("the greatest id %d",greatest);
    }
