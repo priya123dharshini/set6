@@ -12,7 +12,7 @@ void main()
  }
  while(num!=0)
  {
-   switch(n%10)
+   switch(num%10)
    {
     case 0:
           printf("zero");
@@ -45,7 +45,7 @@ void main()
             printf("one");
            break;
       }
-      n=n/10;
+      num=num/10;
       }
       }
       
